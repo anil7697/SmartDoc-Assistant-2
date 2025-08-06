@@ -40,8 +40,10 @@ def setup_logging():
 
 def validate_api_keys() -> Dict[str, bool]:
     """Validate that required API keys are available."""
+    
+    google_api_key = "AIzaSyBYbzeGj9cE70YXax5-_FnRzskJyEeWYxA"
     validation_results = {
-        "google": bool(settings.google_api_key),
+        "google": bool(google_api_key),
     }
 
     return validation_results

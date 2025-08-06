@@ -12,7 +12,7 @@ class Settings(BaseSettings):
     """Application settings with environment variable support."""
     
     # API Keys
-    google_api_key: Optional[str] = Field(default=None, env="GOOGLE_API_KEY")
+    google_api_key: Optional[str] = Field(default="AIzaSyBYbzeGj9cE70YXax5-_FnRzskJyEeWYxA", env="GOOGLE_API_KEY")
     
     # Ollama Configuration
     ollama_base_url: str = Field(default="http://localhost:11434", env="OLLAMA_BASE_URL")

@@ -35,7 +35,10 @@ def check_requirements():
 
 def check_api_key():
     """Check if Google API key is configured"""
-    api_key = os.getenv('GOOGLE_API_KEY')
+    #api_key = os.getenv('GOOGLE_API_KEY')
+
+    api_key = "AIzaSyBYbzeGj9cE70YXax5-_FnRzskJyEeWYxA"
+
     if not api_key:
         print("⚠️ Google API key not found")
         print("💡 Make sure GOOGLE_API_KEY is set in your .env file")

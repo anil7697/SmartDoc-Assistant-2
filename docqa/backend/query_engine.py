@@ -22,7 +22,9 @@ class QueryEngine:
     
     def _initialize_llm(self):
         """Initialize the LLM provider (Gemini Flash 1.5)"""
-        google_api_key = os.getenv('GOOGLE_API_KEY')
+        #google_api_key = os.getenv('GOOGLE_API_KEY')
+
+        google_api_key = "AIzaSyBYbzeGj9cE70YXax5-_FnRzskJyEeWYxA"
         
         if not google_api_key:
             st.warning("Google API key not found. LLM functionality will be limited.")

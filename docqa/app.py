@@ -176,7 +176,10 @@ def main():
         
         # API Key status
         st.subheader("API Keys")
-        google_key = os.getenv('GOOGLE_API_KEY')
+        
+        #google_key = os.getenv('GOOGLE_API_KEY')
+
+        google_key = "AIzaSyBYbzeGj9cE70YXax5-_FnRzskJyEeWYxA"
         if google_key:
             st.success("✅ Google API Key configured")
         else:

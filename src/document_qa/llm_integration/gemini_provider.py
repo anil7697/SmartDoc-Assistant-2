@@ -27,7 +27,8 @@ class GeminiProvider(LLMProvider):
             max_retries: Maximum number of retries
             retry_delay: Delay between retries
         """
-        self.api_key = api_key or settings.google_api_key
+        google_api_key = "AIzaSyBYbzeGj9cE70YXax5-_FnRzskJyEeWYxA"
+        self.api_key = api_key or google_api_key
         self.model_name = model_name
         self.max_retries = max_retries
         self.retry_delay = retry_delay

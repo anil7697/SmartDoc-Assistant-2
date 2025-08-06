@@ -31,7 +31,8 @@ class AnswerGenerator:
         """Initialize available LLM providers."""
         # Initialize Gemini if API key is available
         try:
-            if settings.google_api_key:
+            google_api_key = "AIzaSyBYbzeGj9cE70YXax5-_FnRzskJyEeWYxA"
+            if google_api_key:
                 self.providers['gemini'] = GeminiProvider()
                 self.logger.info("Initialized Gemini provider")
             else:
