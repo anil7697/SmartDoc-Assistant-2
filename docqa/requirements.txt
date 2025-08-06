@@ -1,0 +1,19 @@
+# Core dependencies
+streamlit>=1.28.0
+python-dotenv>=1.0.0
+
+# Document processing
+PyPDF2>=3.0.0
+pypdf>=3.0.0
+
+# Embeddings and Vector Store
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.4
+numpy>=1.24.0
+
+# LLM providers
+google-generativeai>=0.3.0
+
+# Utilities
+requests>=2.31.0
+tqdm>=4.65.0

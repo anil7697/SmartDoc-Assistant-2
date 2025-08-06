@@ -1,0 +1,36 @@
+# Core dependencies
+streamlit>=1.28.0
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# Document processing
+PyPDF2>=3.0.0
+pypdf>=3.0.0
+python-docx>=0.8.11
+langchain>=0.1.0
+langchain-text-splitters>=0.0.1
+
+# Embeddings and Vector Store (using sentence-transformers instead of OpenAI)
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.4
+numpy>=1.24.0
+
+# LLM providers
+google-generativeai>=0.3.0
+ollama>=0.1.0
+
+# Utilities
+requests>=2.31.0
+tqdm>=4.65.0
+loguru>=0.7.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-mock>=3.11.0
+
+# Development
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0

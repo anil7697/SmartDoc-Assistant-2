@@ -1,0 +1,102 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+REddy/
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VSCode
+.vscode/
+*.code-workspace
+.history/
+*.vsix
+
+# PyCharm / IntelliJ
+.idea/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+*~
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+sentence_transformers_cache/
+
+# Streamlit
+.streamlit/
+
+# Data files
+data/documents/*
+!data/documents/.gitkeep
+data/vector_store/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Model files
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+
+# Test outputs
+htmlcov/
+.coverage
+.pytest_cache/
+test_output/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Old project structure (if you want to keep it separate)
+
